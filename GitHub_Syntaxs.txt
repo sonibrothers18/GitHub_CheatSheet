@@ -1,0 +1,36 @@
+git config --list
+
+--------------------------------------------
+
+mkdir --> make new folder
+cd Portfolio --> access the directory
+git status --> to check status of directory
+clear --> use to clean terminal
+ls --> to get information of all the directory in a folder
+ls -a --> to get information of all the directory which is hidden
+cd .. --> to go back to previous directory/folder
+git clone "HTTPS link" --> get the file from github in local system
+
+--------------------------------------------
+
+git add file_name --> add file particularly
+git add . --> add all files together
+git add -A --> after delete file use this to update
+git commit -m "information what have you done" --> to upload file on github, but does not show any changes on it
+git push origin main --> push changes on github of main branch
+git push origin feature --> push changes on github of feature branch
+git push -u  origin main --> shortcut so that we have to not write full syntax
+
+---------------------------------------------
+
+git init --> to initialized repository in localRepo
+git remote add origin link --> to add git remote
+git remote -v --> to verify remote
+git branch --> to check branch
+git branch -M main --> to change branch
+git checkout "another branch name" --> to go to another branch
+git checkout -b "branch name" --> to create new branch
+git branch -d "branch name" --> to delete a branch
+
+
+
